@@ -15,10 +15,10 @@ module.exports = (grunt) ->
         files: "src/javascripts/**"
         tasks: "javascript:dev"
       templates:
-        files: "public_html/_themes/**"
+        files: "_themes/**"
         tasks: "simplereload"
       content:
-        files: "public_html/_content/**"
+        files: "_content/**"
         tasks: "simplereload"
       options:
         livereload: true
@@ -29,46 +29,46 @@ module.exports = (grunt) ->
           outputStyle: "expanded"
           sourceComments: "normal"
         files:
-          "public_html/assets/css-dist/style.css": "src/scss/style.scss"
+          "assets/css-dist/style.css": "src/scss/style.scss"
       dist:
         options:
           outputStyle: "compressed"
         files:
-          "public_html/assets/css-dist/style.css": "src/scss/style.scss"
+          "assets/css-dist/style.css": "src/scss/style.scss"
 
     autoprefixer:
         options: { browsers: ['last 2 version', 'ie 8', 'ie 7'] }
         no_dest:
-            src: "public_html/assets/css-dist/style.css" # globbing is also possible here
+            src: "assets/css-dist/style.css" # globbing is also possible here
 
     csso:
       dist:
         files:
-          "public_html/assets/css-dist/style.css": "deploy/public_html/assets/css-dist/style.css"
+          "assets/css-dist/style.css": "deploy/assets/css-dist/style.css"
 
     concat:
       js:
         #first concatenate libraries, then our own JS
         src: ["src/javascripts/concat/*"]
         #put it in dist/
-        dest: "public_html/assets/javascripts-dist/compiled.js"
+        dest: "assets/javascripts-dist/compiled.js"
 
     uglify:
       compiler:
         files:
-          "public_html/assets/javascripts-dist/compiled.js": ["public_html/assets/javascripts-dist/compiled.js"]
+          "assets/javascripts-dist/compiled.js": ["assets/javascripts-dist/compiled.js"]
       copier:
         files: [
           expand: true # Enable dynamic expansion.
           cwd: "src/javascripts/no-concat/"
           src: ["**.js"] # Actual pattern(s) to match.
-          dest: "public_html/assets/javascripts-dist/" # Destination path prefix.
+          dest: "assets/javascripts-dist/" # Destination path prefix.
           ext: ".js" # Dest filepaths will have this extension.
         ]
 
       compilerbeautify:
       	files:
-          "public_html/assets/javascripts-dist/compiled.js": ["public_html/assets/javascripts-dist/compiled.js"]
+          "assets/javascripts-dist/compiled.js": ["assets/javascripts-dist/compiled.js"]
         options:
           beautify: true
       copierbeautify:
@@ -76,15 +76,15 @@ module.exports = (grunt) ->
           expand: true # Enable dynamic expansion.
           cwd: "src/javascripts/no-concat/"
           src: ["**.js"] # Actual pattern(s) to match.
-          dest: "public_html/assets/javascripts-dist/" # Destination path prefix.
+          dest: "assets/javascripts-dist/" # Destination path prefix.
           ext: ".js" # Dest filepaths will have this extension.
         ]
         options:
           beautify: true
 
     clean:
-      stylesheets: "public_html/assets/css-dist/*.css"
-      javascript: "public_html/assets/javascripts-dist/*.js"
+      stylesheets: "assets/css-dist/*.css"
+      javascript: "assets/javascripts-dist/*.js"
 
   grunt.loadNpmTasks "grunt-contrib-clean"
   grunt.loadNpmTasks "grunt-contrib-coffee"
