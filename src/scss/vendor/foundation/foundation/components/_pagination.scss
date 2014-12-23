@@ -1,7 +1,3 @@
-// Foundation by ZURB
-// foundation.zurb.com
-// Licensed under MIT Open Source
-
 @import "global";
 
 //
@@ -23,7 +19,7 @@ $pagination-li-margin: rem-calc(5) !default;
 // We use these for the pagination anchor links
 $pagination-link-pad: rem-calc(1 10 1) !default;
 $pagination-link-font-color: #999 !default;
-$pagination-link-active-bg: scale-color(#fff, $lightness: -10%) !default;
+$pagination-link-active-bg: darken(#fff, 10%) !default;
 
 // We use these for disabled anchor links
 $pagination-link-unavailable-cursor: default !default;
@@ -77,7 +73,6 @@ $pagination-link-current-active-bg: $primary-color !default;
     color: $pagination-link-current-font-color;
     font-weight: $pagination-link-current-font-weight;
     cursor: $pagination-link-current-cursor;
-    @include radius;
 
     &:hover,
     &:focus { background: $pagination-link-current-active-bg; }
@@ -107,7 +102,7 @@ $pagination-link-current-active-bg: $primary-color !default;
         display: block;
         padding: $pagination-link-pad;
         color: $pagination-link-font-color;
-        @include radius;
+        @include radius($global-radius)
       }
 
       &:hover a,
