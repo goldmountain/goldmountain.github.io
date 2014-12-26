@@ -6123,15 +6123,19 @@ table {
   margin-top: 1rem; }
 
 /* line 16, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.logo {
+  margin-top: 0.7rem; }
+
+/* line 20, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 section {
   height: 100vh; }
 
-/* line 20, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 24, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .introduction {
   background: #f7f7f7;
   padding: 20rem 0; }
 
-/* line 26, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 30, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work__dribbble-push, .travel__instagram-push {
   position: absolute;
   display: block;
@@ -6140,31 +6144,35 @@ section {
   width: 100%;
   height: 45%; }
 
-/* line 35, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 39, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work, .skillset, .travel, .contact {
   position: relative;
   padding: 8rem 0; }
 
-/* line 40, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 44, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog {
   background: #f7f7f7;
   padding: 8rem 0; }
 
-/* line 45, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 49, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog__medium-push {
   margin-top: 5rem; }
-  /* line 48, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 52, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .blog__medium-push ul {
     list-style-type: none; }
 
-/* line 53, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 57, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .travel {
   background: #f7f7f7; }
 
-/* line 57, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 61, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .platform-link {
   float: left;
   margin-top: 3rem; }
+
+/* line 66, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.contact__media {
+  margin: 0 auto; }
 
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated {
