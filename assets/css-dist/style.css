@@ -6110,9 +6110,61 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600; }
+/* line 4, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #eaeaea; }
+
+/* line 12, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.nav {
+  margin-top: 1rem; }
+
+/* line 16, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+section {
+  height: 100vh; }
+
+/* line 20, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.introduction {
+  background: #f7f7f7;
+  padding: 20rem 0; }
+
+/* line 26, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.work__dribbble-push, .travel__instagram-push {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  background: #ececec;
+  width: 100%;
+  height: 45%; }
+
+/* line 35, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.work, .skillset, .travel, .contact {
+  position: relative;
+  padding: 8rem 0; }
+
+/* line 40, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.blog {
+  background: #f7f7f7;
+  padding: 8rem 0; }
+
+/* line 45, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.blog__medium-push {
+  margin-top: 5rem; }
+  /* line 48, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .blog__medium-push ul {
+    list-style-type: none; }
+
+/* line 53, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.travel {
+  background: #f7f7f7; }
+
+/* line 57, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.platform-link {
+  float: left;
+  margin-top: 3rem; }
 
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated {

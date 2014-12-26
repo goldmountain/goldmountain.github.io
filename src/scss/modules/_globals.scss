@@ -1,3 +1,60 @@
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+
+// Global styling for prototyping
+
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+section {
+  height: 100vh;
+}
+
+.introduction {
+  background: #F7F7F7;
+  padding: 20rem 0;
+}
+
+.work__dribbble-push,
+.travel__instagram-push {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  background: #ECECEC;
+  width: 100%;
+  height: 45%;
+}
+
+.work, .skillset, .travel, .contact {
+  position: relative;
+  padding: 8rem 0;
+}
+
+.blog {
+  background: #F7F7F7;
+  padding: 8rem 0; 
+}
+
+.blog__medium-push {
+  margin-top: 5rem;
+  
+  ul {
+    list-style-type: none;
+  }
+}
+
+.travel {
+  background: #F7F7F7;
+}
+
+.platform-link {
+  float: left;
+  margin-top: 3rem;
 }
