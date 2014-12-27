@@ -3324,7 +3324,7 @@ label.error {
   background: white;
   z-index: 50;
   min-width: 100%;
-  padding: 10px; }
+  padding: 0; }
   /* line 20, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/magellan */
   [data-magellan-expedition] .sub-nav {
     margin-bottom: 0; }
@@ -6123,62 +6123,46 @@ table {
   margin-top: 1rem; }
 
 /* line 16, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.logo {
-  margin-top: 0.7rem; }
-
-/* line 20, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 section {
+  padding: 8rem 0;
   height: auto; }
-  @media only screen and (min-width:64.063em) {
-    section {
-      height: 100vh; } }
 
-/* line 28, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 21, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .introduction {
+  height: auto;
+  position: relative;
   background: #f7f7f7;
   padding: 20rem 0; }
+  @media only screen and (min-width:64.063em) {
+    .introduction {
+      height: 100vh; } }
 
-/* line 34, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.work__dribbble-push, .travel__instagram-push {
-  position: absolute;
-  display: block;
-  bottom: 0;
-  background: #ececec;
-  width: 100%;
-  height: auto; }
+/* line 33, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.dribbble-push, .instagram-push {
+  padding: 0; }
 
-/* line 43, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.work, .skillset, .travel, .contact {
-  position: relative;
-  padding: 8rem 0; }
+/* line 37, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.travel, .blog {
+  background: #f7f7f7; }
 
-/* line 48, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.blog {
-  background: #f7f7f7;
-  padding: 8rem 0; }
-
-/* line 53, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 41, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog__medium-push {
   margin-top: 5rem; }
-  /* line 56, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 44, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .blog__medium-push ul {
     list-style-type: none; }
 
-/* line 61, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.travel {
-  background: #f7f7f7; }
-
-/* line 65, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 49, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .platform-link {
   float: left;
   margin-top: 3rem; }
 
-/* line 70, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 54, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .contact__media {
   margin: 0 auto; }
 
-/* line 75, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.work__dirbbble-push__grid li {
+/* line 60, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.work__dirbbble-push__grid li, .travel__instagram-push__grid li {
   padding: 0 !important; }
 
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */

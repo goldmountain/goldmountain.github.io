@@ -13,41 +13,29 @@
   margin-top: 1rem;
 }
 
-.logo {
-  margin-top: 0.7rem;
+section {
+  padding: 8rem 0;
+  height: auto;
 }
 
-section {
+.introduction {
   height: auto;
+  position: relative;
+  background: #F7F7F7;
+  padding: 20rem 0;
 
   @media #{$large-up} {
     height: 100vh;
   }
 }
 
-.introduction {
+.dribbble-push,
+.instagram-push {
+  padding: 0;
+}
+
+.travel, .blog {
   background: #F7F7F7;
-  padding: 20rem 0;
-}
-
-.work__dribbble-push,
-.travel__instagram-push {
-  position: absolute;
-  display: block;
-  bottom: 0;
-  background: #ECECEC;
-  width: 100%;
-  height: auto;
-}
-
-.work, .skillset, .travel, .contact {
-  position: relative;
-  padding: 8rem 0;
-}
-
-.blog {
-  background: #F7F7F7;
-  padding: 8rem 0; 
 }
 
 .blog__medium-push {
@@ -56,10 +44,6 @@ section {
   ul {
     list-style-type: none;
   }
-}
-
-.travel {
-  background: #F7F7F7;
 }
 
 .platform-link {
@@ -71,7 +55,8 @@ section {
   margin: 0 auto;
 }
 
-.work__dirbbble-push__grid {
+.work__dirbbble-push__grid,
+.travel__instagram-push__grid {
   li {
     padding: 0 !important;
   }

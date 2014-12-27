@@ -11,25 +11,25 @@
   <div class="navigation">
     <div class="row">
 
-      <div class="small-4 columns">
-        <img class="logo left" src="assets/images/logo.svg" alt="Arnas Goldber" width="35" />
-      </div>
+      <div data-magellan-expedition="fixed">
+        <img class="logo left" src="assets/images/logo.svg" alt="Arnas Goldberg" width="35" />
 
-      <div class="small-8 columns">
-        <ul class="nav inline-list right">
-          <li><a href="#">UP</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Skillset</a></li>
-          <li><a href="#">Travel</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <dl class="sub-nav right">
+          <dd data-magellan-arrival="introduction"><a href="#introduction">UP</a></dd>
+          <dd data-magellan-arrival="work"><a href="#work">Work</a></dd>
+          <dd data-magellan-arrival="blog"><a href="#blog">Blog</a></dd>
+          <dd data-magellan-arrival="skillset"><a href="#skillset">Skillset</a></dd>
+          <dd data-magellan-arrival="travel"><a href="#travel">Travel</a></dd>
+          <dd data-magellan-arrival="connect"><a href="#connect">Connect</a></dd>
+        </dl>
       </div>
 
     </div>
   </div>
   
+  <a name="introduction"></a>
   <section class="introduction">
+    
     <div class="row">
 
       <div class="columns text-center">
@@ -41,36 +41,39 @@
 
     </div>
   </section>
-
-  <section class="work">
+  
+  <a name="work"></a>
+  <section class="work" data-magellan-destination="work">
     
     <div class="row">
       <div class="columns large-10">
         <h2>Work</h2>
         <p>I'm mostly focusing on identity design and illustrations. Some of it is being tuned with animations and interactivity.</p>
         <p>These are a few shots from my Dribbble account.</p>
-        <a href="#" class="platform-link">See more on <img src="#" alt="Dribbble" /></a>
+        <a href="#" class="platform-link">See more on Dribbble</a>
       </div>
     </div>
 
-    <div class="work__dribbble-push">
-      <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-1 work__dirbbble-push__grid">
-        <li><a href="#"><img src="assets/images/dribbble/ditb-dribbble.png" alt="Design in the browser" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/seoh-3.jpg" alt="SEOH landing page" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/droidcon.gif" alt="Droidcon" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/droidtown.gif" alt="Droidtown" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/zirx-logo.jpg" alt="ZIRX" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/shot.jpg" alt="Investigation" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/seoh-logo.png" alt="SEOH logo" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/full-edited.png" alt="Mailjet" /></a></li>
-        <li><a href="#"><img src="assets/images/dribbble/nighthawk.gif" alt="Nighthawk" /></a></li>
-        <li class="hide-for-medium"><a href="#"><img src="assets/images/dribbble/seoh-features.png" alt="SEOH icons" /></a></li>
-      </ul>
-    </div>
+  </section>
 
+  <section class="dribbble-push">
+    <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-1 work__dirbbble-push__grid">
+      <li><a href="#"><img src="assets/images/dribbble/ditb-dribbble.png" alt="Design in the browser" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/seoh-3.jpg" alt="SEOH landing page" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/droidcon.gif" alt="Droidcon" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/droidtown.gif" alt="Droidtown" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/zirx-logo.jpg" alt="ZIRX" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/shot.jpg" alt="Investigation" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/seoh-logo.png" alt="SEOH logo" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/full-edited.png" alt="Mailjet" /></a></li>
+      <li><a href="#"><img src="assets/images/dribbble/nighthawk.gif" alt="Nighthawk" /></a></li>
+      <li class="hide-for-medium"><a href="#"><img src="assets/images/dribbble/seoh-features.png" alt="SEOH icons" /></a></li>
+    </ul>
   </section>
   
-  <section class="blog">
+  <a name="blog"></a>
+  <section class="blog" data-magellan-destination="blog">
+
     <div class="row">
       <div class="columns">
         <h2>Blog</h2>
@@ -97,13 +100,14 @@
           </ul>
         </div>
 
-        <a href="#" class="platform-link">See more on <img src="#" alt="Medium" /></a>
+        <a href="#" class="platform-link">See more on Medium</a>
       </div>
 
     </div>
   </section>
-
-  <section class="skillset">
+  
+  <a name="skillset"></a>
+  <section class="skillset" data-magellan-destination="skillset">
   
     <div class="row">
       <div class="columns large-8">
@@ -111,38 +115,67 @@
         <p>Having previously taught myself Photoshop tricks for the photo retouch work for my family business...</p>
       </div>
     </div>
-
-    <div class="skillset__visuals">
-      
+    
+    <div class="row">
+      <div class="columns skillset__visuals">
+       TODO: create an illo
+      </div> 
     </div>
 
   </section>
 
-  <section class="travel">
+  <a name="travel"></a>
+  <section class="travel" data-magellan-destination="travel">    
     
     <div class="row">
       <div class="columns large-10">
         <h2>Travel</h2>
         <p>Having previously lived in Lithuania, Denmark and Norway, I'm a nomadic designer who is now settled in Bali, Indonesia</p>
         <p>Since my current job position at <a href="http://hanno.co">Hanno</a> allows me to work remotely, I use the opportunity to explore asia while working. Most of my journey and travelling can be seen through Instagram photos.</p>
-        <a href="#" class="platform-link">See more on <img src="#" alt="Instagram" /></a>
+        <a href="#" class="platform-link">See more on Instagram</a>
       </div>
-    </div>
-
-    <div class="travel__instagram-push">
-      
     </div>
 
   </section>
 
-  <section class="contact">
+  <section class="instagram-push">
+    <ul class="large-block-grid-8 medium-block-grid-6 small-block-grid-2 travel__instagram-push__grid">
+      <li><img src="assets/images/instagram/snorkeling.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/jeep.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/bungalows.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/fire.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/uluwatu.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/bangkok.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/bangkok2.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/gili.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/sunset.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/candidasa.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/bergen.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/house.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/dirt.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/dirt2.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/candidasa2.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/rocks.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/amed.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/boy.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/flag.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/sunset2.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/waterfall.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/road.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/handstand.jpg" alt=""></li>
+      <li><img src="assets/images/instagram/paragliding.jpg" alt=""></li>
+    </ul>
+  </section>
+
+  <a name="connect"></a>
+  <section class="connect" data-magellan-destination="connect">
     
     <div class="row">
       <div class="columns large-10 large-centered text-center">
         <h2>Connect</h2>
         <p>Since I'm currently dedicating 100% of my time for the distributed UX design agency called <a href="http://hanno.co">Hanno</a>, I'm not available for any freelance work. However, if you'd like to say hello and have a chat, I'm totally up for that! I like connecting with the same-minded people, both online and offline, so feel free to drop me a line or two.</p>
 
-        <ul class="contact__media inline-list">
+        <ul class="connect__media inline-list">
           <li><a href="#" class="media-link">TODO: Font-awesome icon</a></li>
           <li><a href="mailto:a.goldbergas@gmail.com" class="contact-link">TODO: Font-awesome icon</a></li>
           <li><a href="#" class="media-link">TODO: Font-awesome icon</a></li>
@@ -151,6 +184,10 @@
     </div>
 
   </section>
+  
+  <script>
+  $(document).foundation('magellan', 'reflow');
+  </script>
 
 </body>
 </html>
