@@ -36,11 +36,11 @@ html, body {
 /* line 323, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/global */
 body {
   background: white;
-  color: #222222;
+  color: #333333;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -1472,7 +1472,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 36, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/accordion */
       .accordion dd > a:hover {
@@ -1996,7 +1996,7 @@ select {
 /* line 197, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
 button, .button {
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3286,7 +3286,7 @@ label.error {
 /* line 87, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/labels */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3747,7 +3747,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 139, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/pricing-tables */
   .pricing-table .price {
     background-color: #f6f6f6;
@@ -3756,7 +3756,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 140, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/pricing-tables */
   .pricing-table .description {
     background-color: white;
@@ -3913,7 +3913,7 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 54, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/side-nav */
   .side-nav li {
     margin: 0 0 0.4375rem 0;
@@ -3926,7 +3926,7 @@ ul.pagination {
     .side-nav li.active > a:first-child {
       color: #4d4d4d;
       font-weight: normal;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     /* line 69, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/side-nav */
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4064,7 +4064,7 @@ ul.pagination {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4333,7 +4333,7 @@ table {
       padding-right: 2rem;
       padding-bottom: 1.0625rem;
       padding-left: 2rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 41, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/tabs */
       .tabs dd > a:hover {
@@ -4562,7 +4562,7 @@ p {
 /* Default header styles */
 /* line 182, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/type */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -4701,7 +4701,7 @@ dl dd {
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #333333;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -5014,7 +5014,7 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     background: #333333; }
@@ -6122,48 +6122,75 @@ table {
 .nav {
   margin-top: 1rem; }
 
-/* line 16, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 18, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 section {
   padding: 8rem 0;
   height: auto; }
 
-/* line 21, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 23, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .introduction {
   height: auto;
   position: relative;
   background: #f7f7f7;
-  padding: 20rem 0; }
+  padding-top: 20rem; }
   @media only screen and (min-width:64.063em) {
     .introduction {
       height: 100vh; } }
 
-/* line 33, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 34, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.introduction__pointer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center; }
+
+/* line 42, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .dribbble-push, .instagram-push {
   padding: 0; }
 
-/* line 37, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 46, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .travel, .blog {
   background: #f7f7f7; }
 
-/* line 41, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 52, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog__medium-push {
   margin-top: 5rem; }
-  /* line 44, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 55, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .blog__medium-push ul {
     list-style-type: none; }
 
-/* line 49, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 60, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .platform-link {
   float: left;
   margin-top: 3rem; }
 
-/* line 54, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 65, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .contact__media {
   margin: 0 auto; }
 
-/* line 60, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 71, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work__dirbbble-push__grid li, .travel__instagram-push__grid li {
   padding: 0 !important; }
+
+/* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+body, p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #5c5c5c; }
+
+/* line 8, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+a {
+  font-size: 1.1rem; }
+
+/* line 17, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  color: #5c5c5c; }
+
+/* line 22, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+h1, h2 {
+  margin-bottom: 1.25rem; }
 
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated {

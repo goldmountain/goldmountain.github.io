@@ -13,6 +13,8 @@
   margin-top: 1rem;
 }
 
+// Section styling
+
 section {
   padding: 8rem 0;
   height: auto;
@@ -22,11 +24,18 @@ section {
   height: auto;
   position: relative;
   background: #F7F7F7;
-  padding: 20rem 0;
+  padding-top: 20rem;
 
   @media #{$large-up} {
     height: 100vh;
   }
+}
+
+.introduction__pointer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
 }
 
 .dribbble-push,
@@ -37,6 +46,8 @@ section {
 .travel, .blog {
   background: #F7F7F7;
 }
+
+// Specifics
 
 .blog__medium-push {
   margin-top: 5rem;
