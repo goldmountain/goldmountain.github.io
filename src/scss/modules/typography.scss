@@ -7,6 +7,10 @@ body, p {
 
 a {
   font-size: 1.1rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 // span, .handwritten {

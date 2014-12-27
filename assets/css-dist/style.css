@@ -6165,19 +6165,34 @@ section {
   margin-top: 3rem; }
 
 /* line 65, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.contact__media {
-  margin: 0 auto; }
+.connect__media {
+  margin: 3rem auto;
+  margin-bottom: 0; }
+  /* line 69, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .connect__media li {
+    display: inline;
+    margin: 0 0.5rem; }
+  /* line 74, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .connect__media a {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4.6rem;
+    background: #9d5b1e;
+    color: white;
+    text-align: center;
+    border-radius: 2px; }
 
-/* line 71, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 88, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work__dirbbble-push__grid li, .travel__instagram-push__grid li {
   padding: 0 !important; }
 
-/* line 76, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 93, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .media-button {
   background: #a1a1a1;
   color: white;
   padding: 0 1.3rem 0 0;
-  margin: 1rem 0;
+  margin: 1.7rem 0;
   display: inline-block;
   line-height: 3.5;
   height: 3.2rem;
@@ -6187,7 +6202,7 @@ section {
   font-weight: 500;
   font-size: 0.9rem;
   letter-spacing: 1.3px; }
-  /* line 91, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 108, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-button i {
     position: relative;
     float: left;
@@ -6201,7 +6216,7 @@ section {
     transition: all 0.2s;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px; }
-  /* line 106, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 123, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-button img {
     position: relative;
     float: left;
@@ -6213,11 +6228,12 @@ section {
     transition: all 0.2s;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px; }
-  /* line 119, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 136, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-button:hover {
     background: #848484;
-    color: white; }
-  /* line 125, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+    color: white;
+    text-decoration: none; }
+  /* line 143, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-button:hover > i, .media-button:hover > img {
     background: #a1a1a1; }
 
@@ -6231,13 +6247,16 @@ body, p {
 /* line 8, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
 a {
   font-size: 1.1rem; }
+  /* line 11, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+  a:hover {
+    text-decoration: underline; }
 
-/* line 17, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+/* line 21, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   color: #5c5c5c; }
 
-/* line 22, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
+/* line 26, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/typography.scss */
 h1, h2 {
   margin-bottom: 1.25rem; }
 
