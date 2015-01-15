@@ -6157,32 +6157,48 @@ section {
   /* line 49, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .connect p {
     color: white; }
+  /* line 51, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .connect img {
+    margin-bottom: 5rem; }
+  /* line 53, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .connect a {
+    color: #010100; }
+  /* line 55, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .connect i {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 0.7rem;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.1s ease-in-out; }
+    /* line 62, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+    .connect i:hover {
+      background: #b5641a; }
 
-/* line 55, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 71, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .dribbble-push, .instagram-push, .skillset--items, .blog--items {
   padding: 0; }
 
-/* line 64, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 80, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items a:hover {
   text-decoration: none; }
-/* line 66, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 82, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items a:hover > h6 {
   color: #b5641a; }
 
-/* line 72, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 88, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .platform-link {
   float: left;
   margin-top: 3rem; }
 
-/* line 77, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 93, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .connect__media {
   margin: 3rem auto;
   margin-bottom: 0; }
-  /* line 81, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 97, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .connect__media li {
     display: inline;
     margin: 0 0.5rem; }
-  /* line 86, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 102, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .connect__media a {
     display: inline-block;
     width: 4rem;
@@ -6193,21 +6209,21 @@ section {
     text-align: center;
     border-radius: 2px; }
 
-/* line 103, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.work__dribbble-push__grid, .travel__instagram-push__grid, .introduction__grid, .clients__grid, .blog--items__grid, .skillset--items__grid {
+/* line 119, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.work__dribbble-push__grid, .travel__instagram-push__grid, .introduction__grid, .clients__grid, .blog--items__grid, .skillset-grid {
   width: 100%;
   margin: 0; }
-  /* line 107, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-  .work__dribbble-push__grid li, .travel__instagram-push__grid li, .introduction__grid li, .clients__grid li, .blog--items__grid li, .skillset--items__grid li {
+  /* line 123, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .work__dribbble-push__grid li, .travel__instagram-push__grid li, .introduction__grid li, .clients__grid li, .blog--items__grid li, .skillset-grid li {
     padding: 0; }
 
-/* line 112, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 128, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__grid li {
   min-height: 44.6rem;
   background-color: rgba(181, 100, 26, 0.1);
   padding: 10rem 0 6rem;
   position: relative; }
-  /* line 118, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 134, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .blog--items__grid li::before {
     content: '';
     display: block;
@@ -6217,80 +6233,89 @@ section {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.65); }
-/* line 130, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 146, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__grid a {
-  position: relative; }
-/* line 132, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  position: relative;
+  display: block; }
+/* line 151, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__grid h5 {
   padding: 0 6rem;
-  margin: 0;
-  color: white; }
-/* line 138, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  margin: 0; }
+/* line 156, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__grid p {
   padding: 2rem 6rem;
-  margin: 0;
-  color: white; }
+  margin: 0; }
+/* line 161, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.blog--items__grid p, .blog--items__grid h5 {
+  color: white;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out; }
+/* line 168, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.blog--items__grid li:hover > a > p, .blog--items__grid li:hover > a > h5 {
+  opacity: 1; }
 
-/* line 148, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 176, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__first, .blog--items__second, .blog--items__third, .blog--items__fourth {
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 153, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 181, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__first {
   background-image: url('/assets/images/blog-1.jpg'); }
 
-/* line 157, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 185, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__second {
   background-image: url('/assets/images/blog-2.jpg'); }
 
-/* line 161, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 189, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__third {
   background-image: url('/assets/images/blog-3.jpg'); }
 
-/* line 165, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 193, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .blog--items__fourth {
   background-image: url('/assets/images/blog-4.jpg'); }
 
-/* line 171, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.skillset--items__grid li {
-  min-height: 22.3rem;
-  background: white; }
-/* line 176, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.skillset--items__grid .alternative {
-  background: rgba(255, 255, 255, 0.5); }
-/* line 178, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.skillset--items__grid h6 {
-  padding: 1.5rem 3rem;
-  margin: 0;
-  margin-top: 2rem;
-  color: #b5641a; }
-/* line 185, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
-.skillset--items__grid p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin: 0 3rem;
-  opacity: 0.6; }
+/* line 197, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+.skillset-grid {
+  margin: 1rem 0 4rem; }
+  /* line 200, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .skillset-grid li {
+    min-height: 22.3rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-left: 2px solid #f7f7f7;
+    border-right: 2px solid #f7f7f7; }
+  /* line 207, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .skillset-grid h6 {
+    padding: 1.5rem 3rem;
+    margin: 0;
+    margin-top: 2rem;
+    color: #b5641a; }
+  /* line 214, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  .skillset-grid p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 3rem;
+    opacity: 0.6; }
 
-/* line 193, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 222, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .clients__grid {
   text-align: center; }
-  /* line 196, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 225, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .clients__grid img {
     width: 60%;
     opacity: 0.8; }
-  /* line 201, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 230, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .clients__grid li {
     border-right: 2px solid rgba(0, 0, 0, 0.08); }
-    /* line 204, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+    /* line 233, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
     .clients__grid li:last-of-type {
       border: none; }
 
-/* line 212, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 241, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work__dribbble-push__grid li {
   overflow: hidden;
   position: relative; }
-/* line 217, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 246, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work__dribbble-push__grid h6 {
   position: absolute;
   bottom: -1rem;
@@ -6304,12 +6329,12 @@ section {
   text-align: center;
   opacity: 0;
   transition: all 0.1s ease; }
-/* line 232, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 261, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .work__dribbble-push__grid a:hover > h6 {
   opacity: 1;
   bottom: 0; }
 
-/* line 238, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+/* line 267, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
 .media-link {
   position: absolute;
   bottom: -5px;
@@ -6320,15 +6345,15 @@ section {
   width: 100%;
   margin-top: 4rem;
   transition: all 0.2s ease-in-out; }
-  /* line 249, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 278, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-link:hover {
     background: rgba(255, 255, 255, 0.8); }
-  /* line 253, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 282, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-link a {
     font-weight: bold;
     font-size: 1.2rem;
     text-transform: uppercase; }
-  /* line 259, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
+  /* line 288, /Users/arnas/Development/goldmountain.github.io/src/scss/modules/_globals.scss */
   .media-link i {
     margin-right: 1rem; }
 

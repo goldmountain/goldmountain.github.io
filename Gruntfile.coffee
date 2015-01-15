@@ -12,7 +12,7 @@ module.exports = (grunt) ->
         files: "src/scss/**"
         tasks: "sass:dev"
       js:
-        files: "src/javascripts/**"
+        files: "src/javascripts/*"
         tasks: "javascript:dev"
       templates:
         files: "deploy/_themes/**"
