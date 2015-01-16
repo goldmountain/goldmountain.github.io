@@ -1,2 +1,0 @@
-goldmountain.github.io
-======================

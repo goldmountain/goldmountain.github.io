@@ -1,0 +1,23 @@
+@import "settings";
+@import "vendor/foundation/foundation";
+@import "vendor/foundation/normalize";
+
+//----------------------------------*\
+// MODULES
+//----------------------------------*/
+
+@import "modules/_globals.scss";
+@import "modules/typography.scss";
+
+//----------------------------------*\
+// VENDOR
+//----------------------------------*/
+
+@import "vendor/_external.scss";
+@import "vendor/_animations.scss";
+
+//----------------------------------*\
+// OTHER
+//----------------------------------*/
+
+@import "font-awesome/font-awesome.scss";

@@ -12,13 +12,13 @@ module.exports = (grunt) ->
         files: "src/scss/**"
         tasks: "sass:dev"
       js:
-        files: "src/javascripts/**"
+        files: "src/javascripts/*"
         tasks: "javascript:dev"
       templates:
-        files: "_themes/**"
+        files: "deploy/_themes/**"
         tasks: "simplereload"
       content:
-        files: "_content/**"
+        files: "deploy/_content/**"
         tasks: "simplereload"
       options:
         livereload: true
@@ -44,7 +44,7 @@ module.exports = (grunt) ->
     csso:
       dist:
         files:
-          "assets/css-dist/style.css": "deploy/assets/css-dist/style.css"
+          "assets/css-dist/style.css": "assets/css-dist/style.css"
 
     concat:
       js:

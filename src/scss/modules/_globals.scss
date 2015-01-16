@@ -1,0 +1,289 @@
+
+// Global styling for prototyping
+
+.navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+// Section styling
+
+section {
+  padding: 6rem 0;
+  height: auto;
+  position: relative;
+  background-color: #F7F7F7;
+}
+
+.introduction {
+  height: auto;
+  position: relative;
+  background-color: #010100;
+  // background: url('/assets/images/twins.png') center center repeat;
+  background-size: 100%;
+  padding: 19rem 0 0;
+
+  @media #{$large-up} {
+    height: 100vh;
+  }
+}
+
+.introduction__grid {
+  position: absolute;
+  bottom: 0;
+
+  img { opacity: 0.9; }
+}
+
+.connect {
+  background: $secondary-color;
+
+  h2 { color: $primary-color; }
+  p { color: white; }
+
+  img { margin-bottom: 5rem; }
+
+  a { color: $secondary-color; }
+
+  i {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 0.7rem;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      background: $primary-color;
+    }
+  }
+}
+
+.dribbble-push,
+.instagram-push,
+.skillset--items,
+.blog--items {
+  padding: 0;
+}
+
+// Specifics
+
+.blog--items {
+
+  a {
+    &:hover { text-decoration: none; }
+
+    &:hover > h6 {
+      color: $primary-color;
+    }
+  }
+}
+
+.platform-link {
+  float: left;
+  margin-top: 3rem;
+}
+
+.connect__media {
+  margin: 3rem auto;
+  margin-bottom: 0;
+
+  li {
+    display: inline;
+    margin: 0 0.5rem;
+  }
+
+  a {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4.6rem;
+    background: rgb(157, 91, 30);
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+  }
+}
+
+.work__dribbble-push__grid,
+.travel__instagram-push__grid,
+.introduction__grid,
+.clients__grid,
+.blog--items__grid,
+.skillset-grid {
+  width: 100%;
+  margin: 0;
+
+  li { padding: 0; }
+}
+
+.blog--items__grid {
+
+  li {
+    min-height: 44.6rem;
+    background-color: rgba(181, 100, 26, 0.1);
+    padding: 10rem 0 6rem;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.65);
+    }
+  }
+
+  a { 
+    position: relative;
+    display: block;
+  }
+
+  h5 {
+    padding: 0 6rem;
+    margin: 0;
+  }
+
+  p {
+    padding: 2rem 6rem;
+    margin: 0;
+  }
+
+  p, h5 {
+    color: white;
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+  }
+
+  li:hover > a > p,
+  li:hover > a > h5 {
+    opacity: 1;
+  }
+}
+
+.blog--items__first,
+.blog--items__second,
+.blog--items__third,
+.blog--items__fourth {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog--items__first {
+  background-image: url('/assets/images/blog-1.jpg');
+}
+
+.blog--items__second {
+  background-image: url('/assets/images/blog-2.jpg');
+}
+
+.blog--items__third {
+  background-image: url('/assets/images/blog-3.jpg');
+}
+
+.blog--items__fourth {
+  background-image: url('/assets/images/blog-4.jpg');
+}
+
+.skillset-grid {
+  margin: 1rem 0 4rem;
+
+  li {
+    min-height: 22.3rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-left: 2px solid rgb(247, 247, 247);
+    border-right: 2px solid rgb(247, 247, 247);
+  }
+  
+  h6 {
+    padding: 1.5rem 3rem;
+    margin: 0;
+    margin-top: 2rem;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 3rem;
+    opacity: 0.6;
+  }
+}
+
+.clients__grid {
+  text-align: center;
+
+  img { 
+    width: 60%;
+    opacity: 0.8;
+  }
+
+  li { 
+    border-right: 2px solid rgba(0, 0, 0, 0.08);
+
+    &:last-of-type {
+      border: none;
+    }
+  }
+}
+
+.work__dribbble-push__grid {
+
+  li { 
+    overflow: hidden;
+    position: relative;
+  }
+
+  h6 {
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 100%;
+    color: white;
+    background: $primary-color;
+    padding: 0.7rem 1rem 1rem;
+    margin: 0;
+    font-size: 1.25rem;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.1s ease;
+  }
+
+  a:hover > h6 {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+.media-link {
+  position: absolute;
+  bottom: -5px;
+  z-index: 10;
+  text-align: center;
+  padding: 1rem 0 1.3rem;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  margin-top: 4rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  i { margin-right: 1rem; }
+}
