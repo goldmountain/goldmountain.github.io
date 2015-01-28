@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Goldmountain | Welcome</title>
-  <link rel="stylesheet" href="assets/css-dist/style.css" />
-  <script src="//use.typekit.net/gwj1fvs.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="/assets/css-dist/style.css" />
+  <!-- <script src="//use.typekit.net/gwj1fvs.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script> -->
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 
     </div>
   </div> -->
-  
+
   <section class="introduction">
 
     <div class="row">
@@ -66,7 +66,7 @@
       </div>
     </div>
   </section> -->
-  
+
   <section class="work">
 
     <div class="row text-center">
@@ -96,15 +96,20 @@
       <li><a href="https://dribbble.com/shots/1806339-ZIRX?list=users&offset=7"><img src="assets/images/dribbble/zirx-logo.jpg" alt="ZIRX" /><h6>ZIRX</h6></a></li>
     </ul>
   </section>
-  
-  <section class="blog">
 
+  <section class="blog">
     <div class="row text-center">
       <div class="columns large-10 large-centered">
         <h2 class="text-center">I'm a Writer</h2>
         <p>From time to time, I like to write about my work, travelling and life.</p>
       </div>
     </div>
+
+	<div class="row">
+		<div class="large-10 columns large-centered">
+			<div id="container"></div>
+		</div>
+	</div>
 
     <div class="media-link">
       <a href="https://medium.com/@arnasgold">
@@ -191,6 +196,28 @@
     </div>
 
   </section>
+
+  <script src="/assets/javascripts/vendor/jquery.js"></script>
+  <script src="/assets/javascripts/vendor/jquery.feeds.min.js"></script>
+
+	<script type="text/javascript">
+		$('#container').feeds({
+	    feeds: {
+	        feed1: 'https://dribbble.com/Matto/shots.rss'
+	    },
+	    entryTemplate: 'exampleTemplate',
+	    max: 3
+	});
+	</script>
+
+<script type="text/html" id="exampleTemplate">
+	<ul>
+	<li>
+		<a href="<!=link!>"><h5><!=title!></h5></a>
+			<!=content!>
+	</li>
+</ul>
+</script>
 
 </body>
 </html>

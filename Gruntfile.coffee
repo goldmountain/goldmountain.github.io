@@ -11,9 +11,6 @@ module.exports = (grunt) ->
       stylesheets:
         files: "src/scss/**"
         tasks: "sass:dev"
-      js:
-        files: "src/javascripts/*"
-        tasks: "javascript:dev"
       templates:
         files: "deploy/_themes/**"
         tasks: "simplereload"
@@ -46,52 +43,13 @@ module.exports = (grunt) ->
         files:
           "assets/css-dist/style.css": "assets/css-dist/style.css"
 
-    concat:
-      js:
-        #first concatenate libraries, then our own JS
-        src: ["src/javascripts/concat/*"]
-        #put it in dist/
-        dest: "assets/javascripts-dist/compiled.js"
-
-    uglify:
-      compiler:
-        files:
-          "assets/javascripts-dist/compiled.js": ["assets/javascripts-dist/compiled.js"]
-      copier:
-        files: [
-          expand: true # Enable dynamic expansion.
-          cwd: "src/javascripts/no-concat/"
-          src: ["**.js"] # Actual pattern(s) to match.
-          dest: "assets/javascripts-dist/" # Destination path prefix.
-          ext: ".js" # Dest filepaths will have this extension.
-        ]
-
-      compilerbeautify:
-      	files:
-          "assets/javascripts-dist/compiled.js": ["assets/javascripts-dist/compiled.js"]
-        options:
-          beautify: true
-      copierbeautify:
-        files: [
-          expand: true # Enable dynamic expansion.
-          cwd: "src/javascripts/no-concat/"
-          src: ["**.js"] # Actual pattern(s) to match.
-          dest: "assets/javascripts-dist/" # Destination path prefix.
-          ext: ".js" # Dest filepaths will have this extension.
-        ]
-        options:
-          beautify: true
-
     clean:
       stylesheets: "assets/css-dist/*.css"
-      javascript: "assets/javascripts-dist/*.js"
 
   grunt.loadNpmTasks "grunt-contrib-clean"
   grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-sass"
-  grunt.loadNpmTasks "grunt-contrib-concat"
-  grunt.loadNpmTasks "grunt-contrib-uglify"
   grunt.loadNpmTasks "grunt-autoprefixer"
   grunt.loadNpmTasks "grunt-csso"
 
@@ -101,19 +59,15 @@ module.exports = (grunt) ->
 
   # Clean dist/ and copy root-directory/
   # NOTE: this has to wipe out everything
-  grunt.registerTask "root-canal", [ "clean:javascript", "clean:stylesheets" ]
-
-  # Clean, compile and concatenate JS
-  grunt.registerTask "javascript:dev", [ "clean:javascript", "concat:js", "uglify:compilerbeautify", "uglify:copierbeautify" ]
-  grunt.registerTask "javascript:dist", [ "clean:javascript", "concat:js", "uglify:compiler", "uglify:copier" ]
+  grunt.registerTask "root-canal", [ "clean:stylesheets" ]
 
   # Clean and compile stylesheets
   grunt.registerTask "stylesheets:dev", ["clean:stylesheets", "sass:dev", "autoprefixer"]
   grunt.registerTask "stylesheets:dist", ["clean:stylesheets", "sass:dist", "autoprefixer", "csso:dist"]
 
   # Production task
-  grunt.registerTask "dev", [ "root-canal", "javascript:dev", "stylesheets:dev", "reload" ]
-  grunt.registerTask "dist", [ "root-canal", "javascript:dist", "stylesheets:dist", "reload" ]
+  grunt.registerTask "dev", [ "root-canal", "stylesheets:dev", "reload" ]
+  grunt.registerTask "dist", [ "root-canal", "stylesheets:dist", "reload" ]
   grunt.registerTask "simplereload", [ "reload" ]
 
   # Default task

@@ -25,8 +25,6 @@ meta.foundation-mq-xxlarge {
 
 /* line 315, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/global */
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* line 320, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/global */
@@ -1515,11 +1513,9 @@ select {
       opacity: 0.5; }
   /* line 107, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/alert-boxes */
   .alert-box.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
   /* line 108, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/alert-boxes */
   .alert-box.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   /* line 110, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/alert-boxes */
   .alert-box.success {
@@ -1944,7 +1940,6 @@ select {
   border-width: 1px;
   background-color: #1b1a00;
   border-color: black;
-  -webkit-border-radius: 3px;
   border-radius: 3px; }
   /* line 118, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/breadcrumbs */
   .breadcrumbs > * {
@@ -2013,8 +2008,6 @@ button, .button {
   background-color: #b5641a;
   border-color: #9f5617;
   color: white;
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
   padding-top: 1.0625rem;
   padding-bottom: 1rem;
@@ -2099,11 +2092,9 @@ button, .button {
     padding-right: 0.75rem; }
   /* line 217, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
   button.radius, .button.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
   /* line 218, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
   button.round, .button.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   /* line 220, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
@@ -2112,7 +2103,6 @@ button, .button {
     color: white;
     cursor: default;
     opacity: 0.7;
-    -webkit-box-shadow: none;
     box-shadow: none; }
     /* line 142, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2130,7 +2120,6 @@ button, .button {
       color: white;
       cursor: default;
       opacity: 0.7;
-      -webkit-box-shadow: none;
       box-shadow: none; }
       /* line 142, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -2148,7 +2137,6 @@ button, .button {
       color: white;
       cursor: default;
       opacity: 0.7;
-      -webkit-box-shadow: none;
       box-shadow: none; }
       /* line 142, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -2166,7 +2154,6 @@ button, .button {
       color: white;
       cursor: default;
       opacity: 0.7;
-      -webkit-box-shadow: none;
       box-shadow: none; }
       /* line 142, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/buttons */
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -2497,7 +2484,6 @@ button, .button {
         /* line 196, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/clearing */
         .clearing-assembled .clearing-container .carousel > ul li a.th {
           border: none;
-          -webkit-box-shadow: none;
           box-shadow: none;
           display: block; }
         /* line 205, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/clearing */
@@ -2774,11 +2760,9 @@ select {
   border: 1px solid #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  -webkit-border-radius: 0;
   border-radius: 0; }
   /* line 327, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
   select.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
   /* line 328, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
   select:hover {
@@ -2836,7 +2820,6 @@ select {
 
 /* line 349, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
 .prefix.button.radius {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
@@ -2847,7 +2830,6 @@ select {
 
 /* line 350, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
 .postfix.button.radius {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -2858,7 +2840,6 @@ select {
 
 /* line 351, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
 .prefix.button.round {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
@@ -2869,7 +2850,6 @@ select {
 
 /* line 352, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
 .postfix.button.round {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
@@ -2887,7 +2867,6 @@ span.prefix, label.prefix {
   color: #333333; }
   /* line 356, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
   span.prefix.radius, label.prefix.radius {
-    -webkit-border-radius: 0;
     border-radius: 0;
     -moz-border-radius-bottomleft: 3px;
     -moz-border-radius-topleft: 3px;
@@ -2904,7 +2883,6 @@ span.postfix, label.postfix {
   color: #333333; }
   /* line 359, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
   span.postfix.radius, label.postfix.radius {
-    -webkit-border-radius: 0;
     border-radius: 0;
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
@@ -2951,12 +2929,10 @@ span.postfix, label.postfix {
 /* line 396, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
   border-radius: 0;
   background-color: white;
   font-family: inherit;
   border: 1px solid #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
@@ -2965,19 +2941,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding: 0.5rem;
   height: 2.3125rem;
   width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
-  -webkit-transition: all 0.15s linear;
-  -moz-transition: all 0.15s linear;
   transition: all 0.15s linear; }
   /* line 180, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/global */
   input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
-    -webkit-box-shadow: 0 0 5px #999999;
-    -moz-box-shadow: 0 0 5px #999999;
     box-shadow: 0 0 5px #999999;
     border-color: #999999; }
   /* line 123, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/forms */
@@ -3224,8 +3192,6 @@ label.error {
   position: absolute;
   border-radius: 3px;
   z-index: 102;
-  -moz-box-shadow: 0 0 30px white;
-  -webkit-box-shadow: 0 0 15px white;
   box-shadow: 0 0 15px white; }
 
 /* line 178, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/joyride */
@@ -3280,7 +3246,6 @@ label.error {
   font-family: "Consolas", "Menlo", "Courier", monospace;
   font-size: 0.875rem;
   padding: 0.125rem 0.25rem 0;
-  -webkit-border-radius: 3px;
   border-radius: 3px; }
 
 /* line 87, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/labels */
@@ -3300,11 +3265,9 @@ label.error {
   color: white; }
   /* line 92, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/labels */
   .label.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
   /* line 93, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/labels */
   .label.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   /* line 95, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/labels */
   .label.alert {
@@ -3344,31 +3307,15 @@ label.error {
   to {
     -webkit-transform: rotate(360deg); } }
 
-@-moz-keyframes rotate {
-  /* line 49, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
-  from {
-    -moz-transform: rotate(0deg); }
-
-  /* line 50, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
-  to {
-    -moz-transform: rotate(360deg); } }
-
-@-o-keyframes rotate {
-  /* line 53, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
-  from {
-    -o-transform: rotate(0deg); }
-
-  /* line 54, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
-  to {
-    -o-transform: rotate(360deg); } }
-
 @keyframes rotate {
   /* line 58, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
   from {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
   /* line 59, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
   to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
 /* Orbit Graceful Loading */
@@ -3407,7 +3354,6 @@ label.error {
   margin-left: -20px;
   border: solid 3px;
   border-color: #555555 white;
-  -webkit-border-radius: 1000px;
   border-radius: 1000px;
   -webkit-animation-name: rotate;
   -webkit-animation-duration: 1.5s;
@@ -3421,9 +3367,13 @@ label.error {
   -o-animation-duration: 1.5s;
   -o-animation-iteration-count: infinite;
   -o-animation-timing-function: linear;
+  -webkit-animation-name: rotate;
   animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear; }
 
 /* line 118, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
@@ -3585,7 +3535,6 @@ label.error {
     background: #cccccc;
     float: left;
     margin-right: 6px;
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     /* line 303, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/orbit */
     .orbit-bullets li.active {
@@ -3637,7 +3586,6 @@ ul.pagination {
       display: block;
       padding: 0.0625rem 0.625rem 0.0625rem;
       color: #999999;
-      -webkit-border-radius: 3px;
       border-radius: 3px; }
     /* line 109, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/pagination */
     ul.pagination li:hover a, ul.pagination li a:focus {
@@ -3726,7 +3674,6 @@ ul.pagination {
       color: #b5641a; }
   /* line 79, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/panels */
   .panel.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
 
 /* Pricing Tables */
@@ -3812,19 +3759,15 @@ ul.pagination {
     display: block; }
   /* line 64, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/progress-bars */
   .progress.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
     /* line 65, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/progress-bars */
     .progress.radius .meter {
-      -webkit-border-radius: 2px;
       border-radius: 2px; }
   /* line 68, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/progress-bars */
   .progress.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     /* line 69, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/progress-bars */
     .progress.round .meter {
-      -webkit-border-radius: 999px;
       border-radius: 999px; }
 
 /* line 138, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/reveal */
@@ -3852,7 +3795,6 @@ ul.pagination {
   background-color: white;
   padding: 1.25rem;
   border: solid 1px #666666;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   top: 50px; }
   /* line 71, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/reveal */
@@ -4077,7 +4019,6 @@ ul.pagination {
         color: #9f5617; }
     /* line 87, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/sub-nav */
     .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
-      -webkit-border-radius: 3px;
       border-radius: 3px;
       font-weight: normal;
       background: #b5641a;
@@ -4111,8 +4052,6 @@ div.switch {
     margin: 0;
     font-weight: bold;
     text-align: left;
-    -webkit-transition: all 0.1s ease-out;
-    -moz-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out; }
   /* line 88, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
   div.switch input {
@@ -4135,8 +4074,6 @@ div.switch {
     padding: 0;
     border-width: 1px;
     border-style: solid;
-    -webkit-transition: all 0.1s ease-out;
-    -moz-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out; }
   /* line 119, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
   div.switch input:not(:checked) + label {
@@ -4188,16 +4125,11 @@ div.switch {
   div.switch span:last-child {
     border-color: #b3b3b3;
     background: white;
-    background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-    background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #f3fbf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
     box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #f3fbf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke; }
   /* line 232, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
   div.switch:hover span:last-child, div.switch:focus span:last-child {
     background: white;
-    background: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
-    background: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%); }
   /* line 242, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
   div.switch:active {
@@ -4252,19 +4184,15 @@ div.switch {
       height: 1.375rem; }
   /* line 300, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
   div.switch.radius {
-    -webkit-border-radius: 4px;
     border-radius: 4px; }
     /* line 301, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
     div.switch.radius span:last-child {
-      -webkit-border-radius: 3px;
       border-radius: 3px; }
   /* line 305, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
   div.switch.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     /* line 306, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
     div.switch.round span:last-child {
-      -webkit-border-radius: 999px;
       border-radius: 999px; }
     /* line 307, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/switch */
     div.switch.round label {
@@ -4411,18 +4339,13 @@ table {
   line-height: 0;
   display: inline-block;
   border: solid 4px white;
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 200ms ease-out;
-  -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out; }
   /* line 49, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/thumbs */
   .th:hover, .th:focus {
-    -webkit-box-shadow: 0 0 6px 1px rgba(181, 100, 26, 0.5);
     box-shadow: 0 0 6px 1px rgba(181, 100, 26, 0.5); }
   /* line 66, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/thumbs */
   .th.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
 
 /* line 68, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/thumbs */
@@ -4459,7 +4382,6 @@ a.th {
   width: 100%;
   color: white;
   background: #333333;
-  -webkit-border-radius: 3px;
   border-radius: 3px; }
   /* line 63, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/tooltips */
   .tooltip > .nub {
@@ -4968,7 +4890,6 @@ meta.foundation-mq-topbar {
           display: block;
           width: 16px;
           height: 0;
-          -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
           box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
   /* line 230, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/top-bar */
   .top-bar.expanded {
@@ -4982,7 +4903,6 @@ meta.foundation-mq-topbar {
       color: #888888; }
       /* line 238, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/top-bar */
       .top-bar.expanded .toggle-topbar a span {
-        -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
         box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
 
 /* line 258, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/top-bar */
@@ -4990,8 +4910,6 @@ meta.foundation-mq-topbar {
   left: 0;
   position: relative;
   width: auto;
-  -webkit-transition: left 300ms ease-out;
-  -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out; }
   /* line 264, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/top-bar */
   .top-bar-section ul {
@@ -5158,8 +5076,6 @@ meta.foundation-mq-topbar {
     margin-bottom: 0; }
   /* line 438, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/top-bar */
   .top-bar-section {
-    -webkit-transition: none 0 0;
-    -moz-transition: none 0 0;
     transition: none 0 0;
     left: 0 !important; }
     /* line 442, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/top-bar */
@@ -5303,10 +5219,7 @@ section.left-small, section.right-small {
 /* line 271, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .inner-wrap {
   *zoom: 1;
-  -webkit-transition: -webkit-transform 500ms ease;
-  -moz-transition: -moz-transform 500ms ease;
-  -ms-transition: -ms-transform 500ms ease;
-  -o-transition: -o-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease; }
   /* line 165, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/global */
   .inner-wrap:before, .inner-wrap:after {
@@ -5386,27 +5299,19 @@ a.menu-icon {
     height: 0;
     left: 0.8125rem;
     top: 0.3125rem;
-    -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
     box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
   /* line 313, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
   a.menu-icon:hover span {
-    -webkit-box-shadow: 0 10px 0 1px #b3b3b3, 0 16px 0 1px #b3b3b3, 0 22px 0 1px #b3b3b3;
     box-shadow: 0 10px 0 1px #b3b3b3, 0 16px 0 1px #b3b3b3, 0 22px 0 1px #b3b3b3; }
 
 /* line 325, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .left-off-canvas-menu {
   -webkit-transform: translate3d(-100%, 0, 0);
-  -moz-transform: translate3d(-100%, 0, 0);
-  -ms-transform: translate3d(-100%, 0, 0);
-  -o-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0); }
 
 /* line 326, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .right-off-canvas-menu {
   -webkit-transform: translate3d(100%, 0, 0);
-  -moz-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate3d(100%, 0, 0);
-  -o-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   right: 0; }
 
@@ -5435,9 +5340,6 @@ ul.off-canvas-list {
 /* line 334, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .move-right > .inner-wrap {
   -webkit-transform: translate3d(250px, 0, 0);
-  -moz-transform: translate3d(250px, 0, 0);
-  -ms-transform: translate3d(250px, 0, 0);
-  -o-transform: translate3d(250px, 0, 0);
   transform: translate3d(250px, 0, 0); }
 /* line 337, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .move-right a.exit-off-canvas {
@@ -5460,9 +5362,6 @@ ul.off-canvas-list {
 /* line 341, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .move-left > .inner-wrap {
   -webkit-transform: translate3d(-250px, 0, 0);
-  -moz-transform: translate3d(-250px, 0, 0);
-  -ms-transform: translate3d(-250px, 0, 0);
-  -o-transform: translate3d(-250px, 0, 0);
   transform: translate3d(-250px, 0, 0); }
 /* line 345, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/foundation/components/offcanvas */
 .move-left a.exit-off-canvas {
@@ -5885,7 +5784,6 @@ dfn {
  */
 /* line 146, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/foundation/normalize */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -6067,8 +5965,6 @@ input[type="checkbox"], input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -6437,22 +6333,16 @@ h6 {
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated {
   -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
   -ms-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s; }
 
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.hinge {
   -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
   -ms-animation-duration: 2s;
-  -o-animation-duration: 2s;
   animation-duration: 2s; }
 
 @-webkit-keyframes fadeIn {
@@ -6461,24 +6351,6 @@ h6 {
     opacity: 0; }
 
   /* line 2, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1; } }
-
-@-moz-keyframes fadeIn {
-  /* line 6, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0; }
-
-  /* line 7, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1; } }
-
-@-o-keyframes fadeIn {
-  /* line 11, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0; }
-
-  /* line 12, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1; } }
 
@@ -6494,8 +6366,6 @@ h6 {
 /* line 20, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeIn {
   -webkit-animation-name: fadeIn;
-  -moz-animation-name: fadeIn;
-  -o-animation-name: fadeIn;
   animation-name: fadeIn; }
 
 @-webkit-keyframes fadeInUp {
@@ -6509,44 +6379,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
-@-moz-keyframes fadeInUp {
-  /* line 39, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(20px); }
-
-  /* line 44, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0); } }
-
-@-o-keyframes fadeInUp {
-  /* line 51, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateY(20px); }
-
-  /* line 56, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0); } }
-
 @keyframes fadeInUp {
   /* line 63, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateY(20px);
     transform: translateY(20px); }
 
   /* line 68, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 /* line 74, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
-  -moz-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp; }
 
 @-webkit-keyframes fadeInDown {
@@ -6560,44 +6408,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
-@-moz-keyframes fadeInDown {
-  /* line 93, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(-20px); }
-
-  /* line 98, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0); } }
-
-@-o-keyframes fadeInDown {
-  /* line 105, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateY(-20px); }
-
-  /* line 110, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0); } }
-
 @keyframes fadeInDown {
   /* line 117, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-20px);
     transform: translateY(-20px); }
 
   /* line 122, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 /* line 128, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
-  -moz-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown; }
 
 @-webkit-keyframes fadeInLeft {
@@ -6611,44 +6437,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateX(0); } }
 
-@-moz-keyframes fadeInLeft {
-  /* line 147, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(-20px); }
-
-  /* line 152, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateX(0); } }
-
-@-o-keyframes fadeInLeft {
-  /* line 159, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateX(-20px); }
-
-  /* line 164, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateX(0); } }
-
 @keyframes fadeInLeft {
   /* line 171, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateX(-20px);
     transform: translateX(-20px); }
 
   /* line 176, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 /* line 182, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
-  -moz-animation-name: fadeInLeft;
-  -o-animation-name: fadeInLeft;
   animation-name: fadeInLeft; }
 
 @-webkit-keyframes fadeInRight {
@@ -6662,44 +6466,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateX(0); } }
 
-@-moz-keyframes fadeInRight {
-  /* line 201, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(20px); }
-
-  /* line 206, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateX(0); } }
-
-@-o-keyframes fadeInRight {
-  /* line 213, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateX(20px); }
-
-  /* line 218, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateX(0); } }
-
 @keyframes fadeInRight {
   /* line 225, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateX(20px);
     transform: translateX(20px); }
 
   /* line 230, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 /* line 236, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
-  -moz-animation-name: fadeInRight;
-  -o-animation-name: fadeInRight;
   animation-name: fadeInRight; }
 
 @-webkit-keyframes fadeInUpBig {
@@ -6713,44 +6495,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
-@-moz-keyframes fadeInUpBig {
-  /* line 255, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(2000px); }
-
-  /* line 260, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0); } }
-
-@-o-keyframes fadeInUpBig {
-  /* line 267, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateY(2000px); }
-
-  /* line 272, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0); } }
-
 @keyframes fadeInUpBig {
   /* line 279, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateY(2000px);
     transform: translateY(2000px); }
 
   /* line 284, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 /* line 290, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
-  -moz-animation-name: fadeInUpBig;
-  -o-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig; }
 
 @-webkit-keyframes fadeInDownBig {
@@ -6764,44 +6524,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
-@-moz-keyframes fadeInDownBig {
-  /* line 309, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(-2000px); }
-
-  /* line 314, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateY(0); } }
-
-@-o-keyframes fadeInDownBig {
-  /* line 321, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateY(-2000px); }
-
-  /* line 326, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateY(0); } }
-
 @keyframes fadeInDownBig {
   /* line 333, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px); }
 
   /* line 338, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 /* line 344, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
-  -moz-animation-name: fadeInDownBig;
-  -o-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig; }
 
 @-webkit-keyframes fadeInLeftBig {
@@ -6815,44 +6553,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateX(0); } }
 
-@-moz-keyframes fadeInLeftBig {
-  /* line 362, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(-2000px); }
-
-  /* line 367, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateX(0); } }
-
-@-o-keyframes fadeInLeftBig {
-  /* line 373, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateX(-2000px); }
-
-  /* line 378, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateX(0); } }
-
 @keyframes fadeInLeftBig {
   /* line 384, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px); }
 
   /* line 389, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 /* line 395, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
-  -moz-animation-name: fadeInLeftBig;
-  -o-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig; }
 
 @-webkit-keyframes fadeInRightBig {
@@ -6866,44 +6582,22 @@ h6 {
     opacity: 1;
     -webkit-transform: translateX(0); } }
 
-@-moz-keyframes fadeInRightBig {
-  /* line 414, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(2000px); }
-
-  /* line 419, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -moz-transform: translateX(0); } }
-
-@-o-keyframes fadeInRightBig {
-  /* line 426, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 0;
-    -o-transform: translateX(2000px); }
-
-  /* line 431, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 1;
-    -o-transform: translateX(0); } }
-
 @keyframes fadeInRightBig {
   /* line 438, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 0;
+    -webkit-transform: translateX(2000px);
     transform: translateX(2000px); }
 
   /* line 443, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
 /* line 449, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
-  -moz-animation-name: fadeInRightBig;
-  -o-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig; }
 
 @-webkit-keyframes fadeOut {
@@ -6912,24 +6606,6 @@ h6 {
     opacity: 1; }
 
   /* line 457, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0; } }
-
-@-moz-keyframes fadeOut {
-  /* line 461, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1; }
-
-  /* line 462, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0; } }
-
-@-o-keyframes fadeOut {
-  /* line 466, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1; }
-
-  /* line 467, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0; } }
 
@@ -6945,8 +6621,6 @@ h6 {
 /* line 475, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOut {
   -webkit-animation-name: fadeOut;
-  -moz-animation-name: fadeOut;
-  -o-animation-name: fadeOut;
   animation-name: fadeOut; }
 
 @-webkit-keyframes fadeOutUp {
@@ -6960,44 +6634,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateY(-20px); } }
 
-@-moz-keyframes fadeOutUp {
-  /* line 493, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateY(0); }
-
-  /* line 498, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateY(-20px); } }
-
-@-o-keyframes fadeOutUp {
-  /* line 504, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateY(0); }
-
-  /* line 509, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateY(-20px); } }
-
 @keyframes fadeOutUp {
   /* line 515, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); }
 
   /* line 520, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateY(-20px);
     transform: translateY(-20px); } }
 
 /* line 526, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutUp {
   -webkit-animation-name: fadeOutUp;
-  -moz-animation-name: fadeOutUp;
-  -o-animation-name: fadeOutUp;
   animation-name: fadeOutUp; }
 
 @-webkit-keyframes fadeOutDown {
@@ -7011,44 +6663,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateY(20px); } }
 
-@-moz-keyframes fadeOutDown {
-  /* line 545, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateY(0); }
-
-  /* line 550, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateY(20px); } }
-
-@-o-keyframes fadeOutDown {
-  /* line 557, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateY(0); }
-
-  /* line 562, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateY(20px); } }
-
 @keyframes fadeOutDown {
   /* line 569, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); }
 
   /* line 574, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateY(20px);
     transform: translateY(20px); } }
 
 /* line 580, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutDown {
   -webkit-animation-name: fadeOutDown;
-  -moz-animation-name: fadeOutDown;
-  -o-animation-name: fadeOutDown;
   animation-name: fadeOutDown; }
 
 @-webkit-keyframes fadeOutLeft {
@@ -7062,44 +6692,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateX(-20px); } }
 
-@-moz-keyframes fadeOutLeft {
-  /* line 599, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateX(0); }
-
-  /* line 604, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateX(-20px); } }
-
-@-o-keyframes fadeOutLeft {
-  /* line 611, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateX(0); }
-
-  /* line 616, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateX(-20px); } }
-
 @keyframes fadeOutLeft {
   /* line 623, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); }
 
   /* line 628, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateX(-20px);
     transform: translateX(-20px); } }
 
 /* line 634, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
-  -moz-animation-name: fadeOutLeft;
-  -o-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft; }
 
 @-webkit-keyframes fadeOutRight {
@@ -7113,44 +6721,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateX(20px); } }
 
-@-moz-keyframes fadeOutRight {
-  /* line 653, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateX(0); }
-
-  /* line 658, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateX(20px); } }
-
-@-o-keyframes fadeOutRight {
-  /* line 665, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateX(0); }
-
-  /* line 670, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateX(20px); } }
-
 @keyframes fadeOutRight {
   /* line 677, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); }
 
   /* line 682, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateX(20px);
     transform: translateX(20px); } }
 
 /* line 688, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutRight {
   -webkit-animation-name: fadeOutRight;
-  -moz-animation-name: fadeOutRight;
-  -o-animation-name: fadeOutRight;
   animation-name: fadeOutRight; }
 
 @-webkit-keyframes fadeOutUpBig {
@@ -7164,44 +6750,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateY(-2000px); } }
 
-@-moz-keyframes fadeOutUpBig {
-  /* line 707, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateY(0); }
-
-  /* line 712, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateY(-2000px); } }
-
-@-o-keyframes fadeOutUpBig {
-  /* line 719, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateY(0); }
-
-  /* line 724, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateY(-2000px); } }
-
 @keyframes fadeOutUpBig {
   /* line 731, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); }
 
   /* line 736, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px); } }
 
 /* line 742, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
-  -moz-animation-name: fadeOutUpBig;
-  -o-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig; }
 
 @-webkit-keyframes fadeOutDownBig {
@@ -7215,44 +6779,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateY(2000px); } }
 
-@-moz-keyframes fadeOutDownBig {
-  /* line 761, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateY(0); }
-
-  /* line 766, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateY(2000px); } }
-
-@-o-keyframes fadeOutDownBig {
-  /* line 773, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateY(0); }
-
-  /* line 778, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateY(2000px); } }
-
 @keyframes fadeOutDownBig {
   /* line 785, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0); }
 
   /* line 790, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateY(2000px);
     transform: translateY(2000px); } }
 
 /* line 796, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutDownBig {
   -webkit-animation-name: fadeOutDownBig;
-  -moz-animation-name: fadeOutDownBig;
-  -o-animation-name: fadeOutDownBig;
   animation-name: fadeOutDownBig; }
 
 @-webkit-keyframes fadeOutLeftBig {
@@ -7266,44 +6808,22 @@ h6 {
     opacity: 0;
     -webkit-transform: translateX(-2000px); } }
 
-@-moz-keyframes fadeOutLeftBig {
-  /* line 815, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateX(0); }
-
-  /* line 820, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateX(-2000px); } }
-
-@-o-keyframes fadeOutLeftBig {
-  /* line 827, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateX(0); }
-
-  /* line 832, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateX(-2000px); } }
-
 @keyframes fadeOutLeftBig {
   /* line 839, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); }
 
   /* line 844, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px); } }
 
 /* line 850, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutLeftBig {
   -webkit-animation-name: fadeOutLeftBig;
-  -moz-animation-name: fadeOutLeftBig;
-  -o-animation-name: fadeOutLeftBig;
   animation-name: fadeOutLeftBig; }
 
 @-webkit-keyframes fadeOutRightBig {
@@ -7317,86 +6837,52 @@ h6 {
     opacity: 0;
     -webkit-transform: translateX(2000px); } }
 
-@-moz-keyframes fadeOutRightBig {
-  /* line 868, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -moz-transform: translateX(0); }
-
-  /* line 873, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -moz-transform: translateX(2000px); } }
-
-@-o-keyframes fadeOutRightBig {
-  /* line 879, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  0% {
-    opacity: 1;
-    -o-transform: translateX(0); }
-
-  /* line 884, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
-  100% {
-    opacity: 0;
-    -o-transform: translateX(2000px); } }
-
 @keyframes fadeOutRightBig {
   /* line 890, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   0% {
     opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0); }
 
   /* line 895, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
   100% {
     opacity: 0;
+    -webkit-transform: translateX(2000px);
     transform: translateX(2000px); } }
 
 /* line 901, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
-  -moz-animation-name: fadeOutRightBig;
-  -o-animation-name: fadeOutRightBig;
   animation-name: fadeOutRightBig; }
 
 /* line 910, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.sequence-one {
   -webkit-animation-delay: 0ms;
-  -moz-animation-delay: 0ms;
-  -o-animation-delay: 0ms;
   animation-delay: 0ms; }
 
 /* line 916, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.sequence-two {
   -webkit-animation-delay: 400ms;
-  -moz-animation-delay: 400ms;
-  -o-animation-delay: 400ms;
   animation-delay: 400ms; }
 
 /* line 922, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.sequence-three {
   -webkit-animation-delay: 800ms;
-  -moz-animation-delay: 800ms;
-  -o-animation-delay: 800ms;
   animation-delay: 800ms; }
 
 /* line 928, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.sequence-four {
   -webkit-animation-delay: 1200ms;
-  -moz-animation-delay: 1200ms;
-  -o-animation-delay: 1200ms;
   animation-delay: 1200ms; }
 
 /* line 934, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.sequence-five {
   -webkit-animation-delay: 1600ms;
-  -moz-animation-delay: 1600ms;
-  -o-animation-delay: 1600ms;
   animation-delay: 1600ms; }
 
 /* line 940, /Users/arnas/Development/goldmountain.github.io/src/scss/vendor/_animations.scss */
 .animated.sequence-six {
   -webkit-animation-delay: 2000ms;
-  -moz-animation-delay: 2000ms;
-  -o-animation-delay: 2000ms;
   animation-delay: 2000ms; }
 
 /*!
@@ -7521,39 +7007,35 @@ h6 {
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 /* line 2, /Users/arnas/Development/goldmountain.github.io/src/scss/font-awesome/rotated-flipped */
 .fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 /* line 3, /Users/arnas/Development/goldmountain.github.io/src/scss/font-awesome/rotated-flipped */
 .fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
   transform: rotate(270deg); }
 
 /* line 5, /Users/arnas/Development/goldmountain.github.io/src/scss/font-awesome/rotated-flipped */
 .fa-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
 /* line 6, /Users/arnas/Development/goldmountain.github.io/src/scss/font-awesome/rotated-flipped */
 .fa-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
   transform: scale(1, -1); }
 
 /* line 8, /Users/arnas/Development/goldmountain.github.io/src/scss/font-awesome/rotated-flipped */
 :root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+  -webkit-filter: none;
   filter: none; }
 
 /* line 1, /Users/arnas/Development/goldmountain.github.io/src/scss/font-awesome/stacked */
